@@ -1,7 +1,7 @@
 {
   "browser_specific_settings": {
     "gecko": {
-      "id": "*****************",
+      "id": "_qwen",
       "strict_min_version": "100.0"
     }
   },
