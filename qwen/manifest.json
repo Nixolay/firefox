@@ -1,4 +1,10 @@
 {
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "telegram-sidebar@example.com",
+      "strict_min_version": "100.0"
+    }
+  },
   "manifest_version": 2,
   "name": "Qwen Sidebar",
   "version": "1.0",
