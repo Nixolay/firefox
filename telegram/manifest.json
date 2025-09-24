@@ -19,6 +19,9 @@
       "bg.js"
     ]
   },
+  "icons": {
+    "32": "icon.svg"
+  },
   "sidebar_action": {
     "default_panel": "panel.html",
     "default_icon": "icon.svg",
