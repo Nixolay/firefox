@@ -1,29 +1,27 @@
 {
+  "manifest_version": 2,
+  "name": "Telegram in Sidebar",
+  "version": "1.0",
+  "description": "Telegram Web directly in Firefox sidebar",
   "browser_specific_settings": {
     "gecko": {
-      "id": "telegram-sidebar@example.com",
+      "id": "*****************",
       "strict_min_version": "100.0"
     }
-  },
-  "manifest_version": 2,
-  "version": "1.0",
-  "name": "Telegram Sidebar",
-  "icons": {
-    "32": "icon.svg"
-  },
-  "sidebar_action": {
-    "default_panel": "panel.html",
-    "default_title": "Telegram",
-    "default_icon": "icon.svg"
-  },
-  "background": {
-    "scripts": [
-      "bg.js"
-    ]
   },
   "permissions": [
     "webRequest",
     "webRequestBlocking",
     "https://web.telegram.org/"
-  ]
+  ],
+  "background": {
+    "scripts": [
+      "bg.js"
+    ]
+  },
+  "sidebar_action": {
+    "default_panel": "panel.html",
+    "default_icon": "icon.svg",
+    "default_title": "✈️ Telegram"
+  }
 }
