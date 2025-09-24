@@ -18,22 +18,6 @@
       border: none;
     }
   </style>
-  <script>
-    browser.webRequest.onHeadersReceived.addListener(
-      details => {
-        return {
-          responseHeaders: details.responseHeaders.filter(header =>
-            header.name.toLowerCase() !== "x-frame-options"
-          )
-        };
-      },
-      {
-        urls: ["https://chat.qwen.ai/*"],
-        types: ["sub_frame"]
-      },
-      ["blocking", "responseHeaders"]
-    );
-  </script>
 </head>
 
 <body>
