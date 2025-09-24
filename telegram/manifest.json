@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Telegram in Sidebar",
+  "name": "Telegram Sidebar",
   "version": "1.0",
   "description": "Open Telegram Web in Firefox sidebar",
   "icons": {

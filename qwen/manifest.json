@@ -1,8 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Qwen in Sidebar",
+  "name": "Qwen Sidebar",
   "version": "1.0",
-  "description": "Open Qwen Web in Firefox sidebar",
   "icons": {
     "32": "icon.svg"
   },
