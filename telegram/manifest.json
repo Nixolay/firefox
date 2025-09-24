@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Telegram in Sidebar",
+  "version": "1.0",
+  "description": "Open Telegram Web in Firefox sidebar",
+  "icons": {
+    "32": "icon.svg"
+  },
+  "sidebar_action": {
+    "default_panel": "panel.html",
+    "default_title": "Telegram",
+    "default_icon": "icon.svg"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://web.telegram.org/"
+  ]
+}

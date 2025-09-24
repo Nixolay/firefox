@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Qwen in Sidebar",
+  "version": "1.0",
+  "description": "Open Qwen Web in Firefox sidebar",
+  "icons": {
+    "32": "icon.svg"
+  },
+  "sidebar_action": {
+    "default_panel": "panel.html",
+    "default_title": "qwen",
+    "default_icon": "icon.svg"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://chat.qwen.ai//"
+  ]
+}
